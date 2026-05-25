@@ -1,0 +1,33 @@
+# Secrets / per-machine state — NEVER commit
+**/credentials.json
+**/tokens/
+**/google-token.json
+wa-daemon/auth/
+wa-daemon/node_modules/
+wa-daemon/message-store.jsonl
+wa-daemon/chats.json
+wa-daemon/chats-state.json
+wa-daemon/contacts.json
+wa-daemon/aliases.json
+wa-daemon/lid-overrides.json
+wa-daemon/daemon.pid
+wa-daemon/heartbeat
+wa-daemon/*.log
+wa-daemon/*.log.err
+wa-daemon/triage-*.json
+triage/state.json
+triage/tokens/
+triage/triage-config.json
+triage/agent-notes.md
+triage/skip-rules.md
+slack/tokens/
+slack/users-cache-*.json
+slack/mute.json
+
+# Generated
+**/__pycache__/
+*.pyc
+.DS_Store
+wa-daemon/wa-state.json
+wa-daemon/chats-state.snapshot.json
+wa-daemon/google-token.json

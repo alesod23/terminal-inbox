@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "_doc": "Written by `node setup.js`. Hand-edit anytime; fetch-all.js re-reads it on every run.",
+
+  "python_cmd": null,
+  "_doc_python": "Optional override. On Windows, leave null to use 'python'; set to full path if you hit the MS Store App Execution Alias intercept.",
+
+  "gmail": {
+    "accounts": ["work"]
+  },
+
+  "slack": {
+    "workspaces": []
+  }
+}

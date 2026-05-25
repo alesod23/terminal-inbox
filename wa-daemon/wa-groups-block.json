@@ -1,0 +1,4 @@
+{
+  "_comment": "WhatsApp groups excluded from triage. The setup wizard writes this; or run 'node wa-mute.js add <jid|name-substring> [reason]'. triage.js reads it by default; pass --include-blocked to override. Marking a group here only hides it from /triage — you still get phone notifications.",
+  "blocked": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "wa-daemon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "node login.js",
+    "daemon": "node daemon.js",
+    "triage": "node triage.js",
+    "send": "node send.js",
+    "sync-contacts": "node sync-contacts.js sync",
+    "auth-contacts": "node sync-contacts.js auth"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@whiskeysockets/baileys": "6.7.18",
+    "googleapis": "^144.0.0",
+    "libphonenumber-js": "1.11",
+    "pino": "9.5.0",
+    "qrcode-terminal": "0.12.0"
+  }
+}
